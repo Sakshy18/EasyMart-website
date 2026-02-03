@@ -1,0 +1,65 @@
+:root {
+  /* ---------- COLORS ---------- */
+
+  --color-white: #ffffff;
+
+  --color-black-900: #000000;
+  --color-black-800: #111111;
+  --color-black-700: #282828;
+  --color-black-600: #383838;
+  --color-black-500: #4b4b4b;
+  --color-black-400: #9d9fa1;
+  --color-black-300: #bdbdbd;
+  --color-black-200: #dddddd;
+  --color-black-100: #f2f2f2;
+  --color-black-50:  #f9f9f9;
+
+  --color-primary-900: #6c2358;
+  --color-primary-800: #83256b;
+  --color-primary-700: #a02b84;
+  --color-primary-600: #b6349a;
+  --color-primary-500: #de57c4;
+  --color-primary-400: #ec86d8;
+  --color-primary-300: #f4b3e9;
+  --color-primary-200: #f9d5f4;
+  --color-primary-100: #fdeafb;
+  --color-primary-50:  #fef5fd;
+  --color-stroke-light: #F8F7F8;
+
+  --color-orange-900: #6b250d;
+  --color-orange-800: #8c3111;
+  --color-orange-700: #b53f15;
+  --color-orange-600: #f5551b;
+  --color-orange-500: #ff7a4b;
+  --color-orange-400: #ff9068;
+  --color-orange-300: #ffb398;
+  --color-orange-200: #ffccb9;
+  --color-orange-100: #ffeee9;
+
+  /* ---------- SPACING ---------- */
+
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 0.75rem;
+  --space-4: 1rem;
+  --space-5: 1.25rem;
+  --space-6: 1.5rem;
+  --space-8: 2rem;
+  --space-10: 2.5rem;
+  --space-12: 3rem;
+
+  /* ---------- RADIUS ---------- */
+
+  --radius-sm: 0.75rem;
+  --radius-md: 1.5rem;
+  --radius-lg: 2rem;
+  --radius-xl: 2.5rem;
+
+  /* ---------- SHADOW ---------- */
+
+  --shadow-soft: 0 2px 5rem rgba(0,0,0,0.04);
+
+  /* ---------- FONT (TEMP) ---------- */
+
+  --font-body: Inter, system-ui, sans-serif;
+}

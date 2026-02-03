@@ -1,0 +1,52 @@
+[
+  {
+    "id": "1",
+    "title": "Strawberries",
+    "image": "/images/fruit1.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "category": "Milk"
+  },
+  {
+    "id": "2",
+    "title": "Oranges",
+    "image": "/images/fruit2.svg",
+    "unitPrice": "$1.20/lb",
+    "price": 49.99,
+    "originalPrice": 79.99,
+    "leftCount": 8,
+    "category": "Orange"
+  },
+  {
+    "id": "1",
+    "title": "Strawberries",
+    "image": "/images/fruit3.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "category": "Orange"
+  },
+  {
+    "id": "1",
+    "title": "Strawberries",
+    "image": "/images/fruit2.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "category": "Milk"
+  },
+  {
+    "id": "1",
+    "title": "Strawberries",
+    "image": "/images/fruit1.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "category": "Fruit"
+  }
+]
