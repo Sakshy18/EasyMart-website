@@ -2,9 +2,15 @@ import Icon from "../..//shared/ui/Icon";
 import Search from "../../shared/ui/Search";
 import CartButton from "../../shared/ui/CartButton";
 import LoginButton from "../..//shared/ui/LoginButton";
-import { Link } from "react-router-dom";
+import Logo from "../../assets/images/Logo.svg";
+import { useDispatch } from "react-redux";
+import { useNavigate } from "react-router-dom";
+import { clearSearch } from "../../features/search/searchSlice";
 
 export default function Header() {
+  const dispatch = useDispatch();
+const navigate = useNavigate();
+
   //   const cartCount = useSelector((state: any) => state.cart.totalItems);
   // const cartCount = useSelector(
   //   (state: any) => state.cart?.totalItems ?? 0
@@ -15,13 +21,15 @@ export default function Header() {
       <div className="hidden lg:flex h-[5.25rem] px-[5rem] items-center justify-between">
         <div className="flex items-center gap-[2rem]">
           <div className="text-[1.25rem] font-semibold text-[var(--color-primary-600)]">
-            <Link to="/">
   <img
-  src="/src/assets/images/Logo.svg"
-    alt="EasyMart"
-    className="cursor-pointer"
-  />
-</Link>
+  src={Logo}
+  alt="EasyMart"
+  className="cursor-pointer"
+  onClick={() => {
+    dispatch(clearSearch());
+    navigate("/");
+  }}
+/>
          
           </div>
 
