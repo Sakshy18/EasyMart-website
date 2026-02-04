@@ -7,46 +7,76 @@
     "price": 99.99,
     "originalPrice": 129.99,
     "leftCount": 12,
-    "category": "Milk"
+    "categoryId": "fruits"
   },
   {
     "id": "2",
-    "title": "Oranges",
+    "title": "Lime",
     "image": "/images/fruit2.svg",
     "unitPrice": "$1.20/lb",
     "price": 49.99,
     "originalPrice": 79.99,
     "leftCount": 8,
-    "category": "Orange"
+    "categoryId": "veggies"
   },
   {
-    "id": "1",
-    "title": "Strawberries",
+    "id": "3",
+    "title": "Oranges",
     "image": "/images/fruit3.svg",
     "unitPrice": "$2.71/lb",
     "price": 99.99,
     "originalPrice": 129.99,
     "leftCount": 12,
-    "category": "Orange"
+    "categoryId": "fruits"
   },
   {
-    "id": "1",
-    "title": "Strawberries",
-    "image": "/images/fruit2.svg",
+    "id": "4",
+    "title": "Mystic Cheese",
+    "image": "/images/cheese1.svg",
     "unitPrice": "$2.71/lb",
     "price": 99.99,
     "originalPrice": 129.99,
     "leftCount": 12,
-    "category": "Milk"
+    "categoryId": "cheese"
   },
   {
-    "id": "1",
-    "title": "Strawberries",
-    "image": "/images/fruit1.svg",
+    "id": "5",
+    "title": "Burata Cheese",
+    "image": "/images/cheese2.svg",
     "unitPrice": "$2.71/lb",
     "price": 99.99,
     "originalPrice": 129.99,
     "leftCount": 12,
-    "category": "Fruit"
+    "categoryId": "cheese"
+  },
+  {
+    "id": "6",
+    "title": "Central Coast Cheese",
+    "image": "/images/cheese3.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "categoryId": "cheese"
+  },
+    {
+    "id": "7",
+    "title": "Sapins Milk",
+    "image": "/images/milk1.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "categoryId": "dairy-eggs"
+  },
+   {
+    "id": "8",
+    "title": "Oat Milk",
+    "image": "/images/milk2.svg",
+    "unitPrice": "$2.71/lb",
+    "price": 99.99,
+    "originalPrice": 129.99,
+    "leftCount": 12,
+    "categoryId": "dairy-eggs"
   }
 ]

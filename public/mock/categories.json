@@ -1,0 +1,52 @@
+[
+  {
+    "id": "bread",
+    "name": "Bread",
+    "icon": "/images/categories/bread.svg"
+  },
+  {
+    "id": "cheese",
+    "name": "Cheese",
+    "icon": "/images/categories/cheese.svg"
+  },
+  {
+    "id": "alcohol",
+    "name": "Alcohol",
+    "icon": "/images/categories/alcohol.svg"
+  },
+  {
+    "id": "yogurt",
+    "name": "Yogurt",
+    "icon": "/images/categories/yogurt.svg"
+  },
+  {
+    "id": "dairy-eggs",
+    "name": "Dairy & Eggs",
+    "icon": "/images/categories/dairy.svg"
+  },
+  {
+    "id": "fruits",
+    "name": "Fruits",
+    "icon": "/images/categories/fruits.svg"
+  },
+  {
+    "id": "snacks",
+    "name": "Snacks",
+    "icon": "/images/categories/snacks.svg"
+  },
+  {
+    "id": "cake",
+    "name": "Cake",
+    "icon": "/images/categories/cake.svg"
+  },
+  {
+    "id": "candy",
+    "name": "Candy",
+    "icon": "/images/categories/candy.svg"
+  },
+  {
+    "id": "veggies",
+    "name": "Vegetables",
+    "icon": "/images/categories/veggies.svg"
+  }
+]

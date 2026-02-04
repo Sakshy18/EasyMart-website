@@ -2,6 +2,7 @@ import Icon from "../..//shared/ui/Icon";
 import Search from "../../shared/ui/Search";
 import CartButton from "../../shared/ui/CartButton";
 import LoginButton from "../..//shared/ui/LoginButton";
+import { Link } from "react-router-dom";
 
 export default function Header() {
   //   const cartCount = useSelector((state: any) => state.cart.totalItems);
@@ -14,11 +15,14 @@ export default function Header() {
       <div className="hidden lg:flex h-[5.25rem] px-[5rem] items-center justify-between">
         <div className="flex items-center gap-[2rem]">
           <div className="text-[1.25rem] font-semibold text-[var(--color-primary-600)]">
-            <img
-              src="/src/assets/icons/logo.svg"
-              alt="EasyMart Logo"
-              className="h-32 w-32"
-            />
+            <Link to="/">
+  <img
+  src="/src/assets/images/Logo.svg"
+    alt="EasyMart"
+    className="cursor-pointer"
+  />
+</Link>
+         
           </div>
 
           <div className="flex items-center gap-[0.5rem]">

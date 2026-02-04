@@ -6,7 +6,7 @@ export type Product = {
   price: number;
   originalPrice: number;
   leftCount: number;
-  category: string;
+  categoryId: string;
 };
 
 export async function fetchProductsApi(): Promise<Product[]> {

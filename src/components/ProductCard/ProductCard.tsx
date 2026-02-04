@@ -2,7 +2,7 @@ import type { ProductCardData } from "./types";
 
 type Props = {
   product: ProductCardData;
-};
+}
 
 export default function ProductCard({ product }: Props) {
   return (

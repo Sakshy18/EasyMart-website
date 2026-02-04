@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import HomePage from "../pages/HomePage/HomePage";
-import CategoriesPage from "../pages/CategoriesPage/CategoriesPage";
+import { lazy } from "react";
+
+const HomePage = lazy(() => import("../pages/HomePage/HomePage"));
+const CategoriesPage = lazy(() => import("../pages/CategoriesPage/CategoriesPage"));
 
 export const router = createBrowserRouter([
   {
@@ -8,7 +10,7 @@ export const router = createBrowserRouter([
     element: <HomePage />
   },
   {
-  path: "/categories/:category",
+  path: "/categories/:categoryId",
   element: <CategoriesPage />,
 },
 

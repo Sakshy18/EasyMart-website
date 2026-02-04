@@ -2,14 +2,14 @@ import { useNavigate } from "react-router-dom";
 import Icon from "./Icon";
 
 interface Props {
-  category: string;
+  categoryId: string;
 }
 
-export default function ViewByCategoryButton({ category }: Props) {
+export default function ViewByCategoryButton({ categoryId }: Props) {
   const navigate = useNavigate();
 
   const handleClick = () => {
-    navigate(`/categories/${category}`);
+    navigate(`/categories/${categoryId}`);
   };
 
   return (
