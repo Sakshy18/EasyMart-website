@@ -6,7 +6,7 @@ export const selectProducts = (state: RootState): Product[] =>
 
 export const selectCategories = (state: RootState): string[] => {
   const set = new Set(
-    state.products.items.map(p => p.category)
+    state.products.items.map(p => p.categoryId)
   );
 
   return Array.from(set);
