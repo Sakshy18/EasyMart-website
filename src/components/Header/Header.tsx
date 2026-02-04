@@ -3,6 +3,7 @@ import Search from "../../shared/ui/Search";
 import CartButton from "../../shared/ui/CartButton";
 import LoginButton from "../..//shared/ui/LoginButton";
 import Logo from "../../assets/images/Logo.svg";
+import close from "../../assets/icons/close.svg";
 import { useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { clearSearch } from "../../features/search/searchSlice";
@@ -50,7 +51,15 @@ const navigate = useNavigate();
       </div>
 
       <div className="flex lg:hidden h-[4.5rem] px-[1rem] items-center justify-between">
-        <Icon name="arrowRight" size={20} />
+      <img
+  src={close}
+  alt="EasyMart"
+  className="cursor-pointer"
+  onClick={() => {
+    dispatch(clearSearch());
+    navigate("/");
+  }}
+/>
 
         <Search placeholder="Search by product name" size="mobile" />
 
