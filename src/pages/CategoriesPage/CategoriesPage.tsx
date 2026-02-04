@@ -1,6 +1,6 @@
 import FiltersPanel from "../../components/FilterPanel/FilterPanel";
 import Header from "../../components/Header/Header";
-import BannersRow from "../../shared/ui/BannersRow";
+
 import { lazy, Suspense } from "react";
 
 const ProductsGrid = lazy(
@@ -9,6 +9,10 @@ const ProductsGrid = lazy(
 const CategoriesBar = lazy(
   () => import("../../components/CategoryPillList/CategoriesBar"),
 );
+
+import BannerSkeleton from "../../shared/ui/BannerSkeleton";
+
+const BannersRow = lazy(() => import("../../shared/ui/BannersRow"));
 
 import SectionHeader from "../../shared/ui/SectionHeader";
 import { selectCategories } from "../../features/categories/selectors";
@@ -97,9 +101,12 @@ export default function CategoriesPage() {
               ))}
             </div>
 
-            <div className="hidden md:block">
-              <BannersRow />
-            </div>
+           <div className="hidden md:block">
+  <Suspense fallback={<BannerSkeleton />}>
+    <BannersRow />
+  </Suspense>
+</div>
+
 
             <SectionHeader title={activeCategory?.name ?? ""} hideViewButton />
 
