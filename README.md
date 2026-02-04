@@ -283,13 +283,5 @@ No extra config required.
 
 ---
 
-## 🛣️ Future Improvements
-
-- Real backend integration
-- Filters logic
-- Pagination
-- Sorting
-- Authentication
-- Cart system
 
 ---
